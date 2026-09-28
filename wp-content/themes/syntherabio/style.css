@@ -1,0 +1,249 @@
+/*
+Theme Name: syntherabio
+Theme URI: https://www.themehorse.com/themes/syntherabio/
+Author: Theme Horse
+Author URI: https://www.themehorse.com/
+Description: syntherabio is a Simple, Clean and Beautiful Responsive WordPress Blog/Photography Theme. It is easily customizable with customize. Some of the highlighted options are two site layout (Narrow and Wide), 4 layouts for every post/page, 2 Widget Areas, Featured slider to highlight your post, Social Profile Navigation and many more. Also has custom background, header, menu, favicon, webclip icon, and logo. Supports popular plugins like WooCommerce, bbPress, Breadcrumb NavXT, WP-PageNavi and Contact Form 7 and many more. It is also translation ready. Get free support at https://www.themehorse.com/support-forum/ and view beautiful demo site at https://www.themehorse.com/preview/syntherabio/
+Version: 1.1
+Requires at least: 4.7
+Requires PHP: 5.2
+Tested up to: 6.4
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, e-commerce, portfolio, one-column, two-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-logo, custom-menu, featured-image-header, featured-images, footer-widgets, full-width-template, rtl-language-support, sticky-post, theme-options, threaded-comments, translation-ready
+Text Domain: syntherabio
+
+syntherabio is based on Underscores http://underscores.me/, (C) 2012-2017 Automattic, Inc.
+
+syntherabio WordPress Theme, Copyright Theme Horse
+syntherabio is distributed under the terms of the GNU GPL
+
+Resetting and rebuilding styles have been helped along thanks to the fine work of
+Eric Meyer http://meyerweb.com/eric/tools/css/reset/index.html
+along with Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+and Blueprint http://www.blueprintcss.org/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+1.0 - Reset
+2.0 - Global
+	2.1 - Accessibility
+	2.2 - Alignments
+	2.3 - Blockquote
+	2.4 - Breadcrumb
+	2.5 - Buttons
+	2.6 - Clearings
+	2.7 - Forms
+	2.8 - Heading Tags
+	2.9 - Horizontal Row
+	2.10 - Images
+	2.11 - Links
+	2.12 - Null Margin/Padding/Border
+	2.13 - Super/Sub Scripts
+	2.14 - Text Elements
+3.0 - Basic Structure
+	3.1 - Layouts
+4.0 - Header
+	4.1 - Site Logo/Title/Description
+	4.2 - Social Profiles
+	4.3 - Search Form 
+5.0 - Navigation
+6.0 - Content
+	6.1 - Post Featured Image
+	6.2 - Entry Header
+	6.3 - Entry Title
+	6.4 - Entry Meta
+	6.5 - Entry Content
+	6.6 - Galleries
+	6.7 - Post/Image/Paging Navigation
+	6.8 - Attachments
+	6.9 - Comments
+	6.10 - Pages
+	6.11 - bbPress Support
+	6.12 - Woo Commerce Support
+	6.13 - Gutenberg Support
+7.0 - Sidebars
+8.0 - Widgets
+	8.1 - Widget Archive
+	8.2 - Widget Calendar
+	8.3 - Widget Categories
+	8.4 - Widget Gallery
+	8.5 - Widget Media Image
+	8.6 - Widget Media Video
+	8.7 - Widget Nav Menu
+	8.8 - Widget Pages
+	8.9 - Widget Recent Entries/Comments
+	8.10 - Widget Tag Cloud
+	8.11 - Widget Text
+	8.12 - Widget Search
+	8.13 - Widget Article
+	8.14 - Widget Custom Tag Cloud (Theme Widget)
+9.0 - Footer
+10.0 - Featured Content
+11.0 - Media Queries
+--------------------------------------------------------------*/
+/* =========================
+   CHECKOUT PAGE
+========================= */
+
+.checkout-hero {
+    background: #08111b;
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px 60px;
+}
+
+.checkout-hero-inner span {
+    color: #009bb0;
+    font-size: 12px;
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    display: block;
+}
+
+.checkout-hero-inner h1 {
+    font-size: 68px;
+    font-family: Georgia, serif;
+    margin: 0 0 20px;
+}
+
+.checkout-hero-inner p {
+    font-size: 18px;
+    color: #a0a8b2;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.checkout-section {
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+
+.checkout-wrap {
+    width: 90%;
+    max-width: 1250px;
+    margin: auto;
+}
+
+.woocommerce-checkout .col2-set {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.woocommerce-checkout .col-1,
+.woocommerce-checkout .col-2 {
+    flex: 1;
+    min-width: 300px;
+}
+
+.woocommerce-checkout h3 {
+    font-size: 24px;
+    font-family: Georgia, serif;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.woocommerce-billing-fields .form-row,
+.woocommerce-shipping-fields .form-row {
+    margin-bottom: 15px;
+}
+
+.woocommerce-checkout .form-row label {
+    font-weight: 600;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.woocommerce-checkout .input-text,
+.woocommerce-checkout select,
+.woocommerce-checkout textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: #fff;
+}
+
+#order_review_heading {
+    margin-top: 0;
+}
+
+#order_review {
+    background: #fff;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.woocommerce-checkout-review-order-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.woocommerce-checkout-review-order-table th,
+.woocommerce-checkout-review-order-table td {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+}
+
+.woocommerce-checkout-review-order-table tfoot th,
+.woocommerce-checkout-review-order-table tfoot td {
+    font-weight: 700;
+}
+
+.woocommerce-checkout-review-order-table .product-total {
+    text-align: right;
+}
+
+#payment {
+    background: #f5f5f5;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+#payment .wc_payment_methods {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#payment .wc_payment_method {
+    margin-bottom: 10px;
+}
+
+#payment .payment_box {
+    background: #fff;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.place-order {
+    margin-top: 20px;
+}
+
+.woocommerce-checkout-payment .button {
+    background: #009bb0;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 6px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    width: 100%;
+    font-size: 16px;
+}
+
+/*--------------------------------------------------------------
+1.0 - Reset
+--------------------------------------------------------------*/

@@ -1,0 +1,493 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Superior 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-02-15 13:09+0530\n"
+"PO-Revision-Date: 2017-02-15 13:09+0530\n"
+"Last-Translator: \n"
+"Language-Team: Theme Horse <support@themehorse.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;_x;_n;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:14
+msgid "Error 404-Page NOT Found"
+msgstr ""
+
+#: 404.php:19
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr ""
+
+#: 404.php:22
+msgid "This might be because:"
+msgstr ""
+
+#: 404.php:25
+msgid "You have typed the web address incorrectly, or the page you were looking for may have been moved, updated or deleted."
+msgstr ""
+
+#: 404.php:28
+msgid "Please try the following instead:"
+msgstr ""
+
+#: 404.php:31
+msgid "Check for a mis-typed URL error, then press the refresh button on your browser."
+msgstr ""
+
+#: comments.php:29
+#, php-format
+msgid "One thought on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:32
+#, php-format
+msgid "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr ""
+
+#: comments.php:49
+msgid "Comment navigation"
+msgstr ""
+
+#: comments.php:53
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:57
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:68
+msgid "Comments are closed."
+msgstr ""
+
+#: functions.php:122
+msgid "Primary Navigation"
+msgstr ""
+
+#: functions.php:123
+msgid "Social Navigation"
+msgstr ""
+
+#: searchform.php:11
+#: searchform.php:12
+#: searchform.php:13
+msgid "Search"
+msgstr ""
+
+#: inc/admin/superior-metaboxes.php:18
+msgid "Below setting will not reflect on Main Blog Layout"
+msgstr ""
+
+#: inc/admin/superior-metaboxes.php:24
+msgid "Select layout for this specific Post only"
+msgstr ""
+
+#: inc/admin/superior-metaboxes.php:35
+msgid "Default Layout Set in Customizer"
+msgstr ""
+
+#: inc/admin/superior-metaboxes.php:41
+msgid "No sidebar"
+msgstr ""
+
+#: inc/admin/superior-metaboxes.php:46
+msgid "No sidebar, Full Width"
+msgstr ""
+
+#: inc/admin/superior-metaboxes.php:52
+msgid "Left sidebar"
+msgstr ""
+
+#: inc/admin/superior-metaboxes.php:57
+msgid "Right sidebar"
+msgstr ""
+
+#: inc/footer-info/superior-footer-info.php:35
+#, php-format
+msgid "Proudly Powered by: %s"
+msgstr ""
+
+#: inc/footer-info/superior-footer-info.php:35
+msgid "WordPress"
+msgstr ""
+
+#: inc/footer-info/superior-footer-info.php:43
+#, php-format
+msgid "Theme by: %s"
+msgstr ""
+
+#: inc/footer-info/superior-footer-info.php:43
+msgid "Theme Horse"
+msgstr ""
+
+#: inc/functions/customizer.php:25
+msgid "Review Superior"
+msgstr ""
+
+#: inc/functions/customizer.php:26
+msgid "Rate Superior"
+msgstr ""
+
+#: inc/functions/customizer.php:28
+msgid "Superior Theme Instructions"
+msgstr ""
+
+#: inc/functions/customizer.php:29
+msgid "Theme Instructions"
+msgstr ""
+
+#: inc/functions/customizer.php:31
+#: inc/functions/customizer.php:32
+msgid "Support Forum"
+msgstr ""
+
+#: inc/functions/customizer.php:34
+msgid "Superior Demo"
+msgstr ""
+
+#: inc/functions/customizer.php:35
+msgid "View Demo"
+msgstr ""
+
+#: inc/functions/customizer.php:141
+msgid "Superior Theme Options"
+msgstr ""
+
+#: inc/functions/customizer.php:147
+msgid "Superior Support"
+msgstr ""
+
+#: inc/functions/customizer.php:160
+msgid "Superior Upgrade"
+msgstr ""
+
+#: inc/functions/customizer.php:168
+msgid "Layout Options"
+msgstr ""
+
+#: inc/functions/customizer.php:179
+msgid "Site Layout"
+msgstr ""
+
+#: inc/functions/customizer.php:185
+msgid "Wide Layout"
+msgstr ""
+
+#: inc/functions/customizer.php:186
+msgid "Narrow Layout"
+msgstr ""
+
+#: inc/functions/customizer.php:196
+msgid "Content Layout"
+msgstr ""
+
+#: inc/functions/customizer.php:197
+msgid "Below options are global setting. Set individual layout from specific page/ post."
+msgstr ""
+
+#: inc/functions/customizer.php:203
+msgid "Right Sidebar"
+msgstr ""
+
+#: inc/functions/customizer.php:204
+msgid "Left Sidebar"
+msgstr ""
+
+#: inc/functions/customizer.php:205
+msgid "No Sidebar"
+msgstr ""
+
+#: inc/functions/customizer.php:206
+msgid "No Sidebar Full Width"
+msgstr ""
+
+#: inc/functions/customizer.php:211
+msgid "Header Options"
+msgstr ""
+
+#: inc/functions/customizer.php:222
+msgid "Check to disable"
+msgstr ""
+
+#: inc/functions/customizer.php:238
+msgid "Post/Page Title Background Image"
+msgstr ""
+
+#: inc/functions/customizer.php:251
+msgid "Display Site Title"
+msgstr ""
+
+#: inc/functions/customizer.php:257
+msgid "Header Text Only"
+msgstr ""
+
+#: inc/functions/customizer.php:258
+msgid "Header Logo Only"
+msgstr ""
+
+#: inc/functions/customizer.php:259
+msgid "Disable Both"
+msgstr ""
+
+#: inc/functions/customizer.php:265
+msgid "Home Page Blog Category Setting"
+msgstr ""
+
+#: inc/functions/customizer.php:266
+msgid "Only posts that belong to the categories selected here will be displayed on the front page. ( You may select multiple categories by holding down the Ctrl/Command key. ) "
+msgstr ""
+
+#: inc/functions/customizer.php:281
+msgid "Front page posts categories"
+msgstr ""
+
+#: inc/functions/customizer.php:295
+msgid "Check to Default Settings"
+msgstr ""
+
+#: inc/functions/customizer.php:302
+msgid "Featured Slider Options"
+msgstr ""
+
+#: inc/functions/customizer.php:314
+msgid "Number of Slides"
+msgstr ""
+
+#: inc/functions/customizer.php:327
+msgid "Transition Effect"
+msgstr ""
+
+#: inc/functions/customizer.php:332
+msgid "Fade"
+msgstr ""
+
+#: inc/functions/customizer.php:333
+msgid "Wipe"
+msgstr ""
+
+#: inc/functions/customizer.php:334
+msgid "Scroll Up"
+msgstr ""
+
+#: inc/functions/customizer.php:335
+msgid "Scroll Down"
+msgstr ""
+
+#: inc/functions/customizer.php:336
+msgid "Scroll Left"
+msgstr ""
+
+#: inc/functions/customizer.php:337
+msgid "Scroll Right"
+msgstr ""
+
+#: inc/functions/customizer.php:338
+msgid "Blind X"
+msgstr ""
+
+#: inc/functions/customizer.php:339
+msgid "Blind Y"
+msgstr ""
+
+#: inc/functions/customizer.php:340
+msgid "Blind Z"
+msgstr ""
+
+#: inc/functions/customizer.php:341
+msgid "Cover"
+msgstr ""
+
+#: inc/functions/customizer.php:342
+msgid "Shuffle"
+msgstr ""
+
+#: inc/functions/customizer.php:353
+msgid "Transition Delay"
+msgstr ""
+
+#: inc/functions/customizer.php:366
+msgid "Transition Length"
+msgstr ""
+
+#: inc/functions/customizer.php:381
+msgid " Enter Post ID #"
+msgstr ""
+
+#: inc/functions/customizer.php:395
+msgid "Disable Slider"
+msgstr ""
+
+#: inc/functions/customizer.php:408
+msgid "Check to exclude"
+msgstr ""
+
+#: inc/functions/customizer.php:409
+msgid "Exclude Slider post from Homepage posts?"
+msgstr ""
+
+#: inc/functions/customizer.php:416
+msgid "Post Meta Display Options"
+msgstr ""
+
+#: inc/functions/customizer.php:428
+msgid "Disable Categories"
+msgstr ""
+
+#: inc/functions/customizer.php:441
+msgid "Disable Author"
+msgstr ""
+
+#: inc/functions/customizer.php:454
+msgid "Disable Date"
+msgstr ""
+
+#: inc/functions/customizer.php:467
+msgid "Disable Comment Link"
+msgstr ""
+
+#: inc/functions/customizer.php:480
+msgid "Disable Tags"
+msgstr ""
+
+#: inc/functions/customizer.php:569
+msgid "Superior Pro"
+msgstr ""
+
+#: inc/functions/customizer.php:570
+msgid "Upgrade to Pro"
+msgstr ""
+
+#: inc/structure/content-extensions.php:209
+msgid "Featured"
+msgstr ""
+
+#: inc/structure/content-extensions.php:236
+#: inc/structure/content-extensions.php:378
+msgid "No Comments"
+msgstr ""
+
+#: inc/structure/content-extensions.php:236
+#: inc/structure/content-extensions.php:378
+msgid "1 Comment"
+msgstr ""
+
+#: inc/structure/content-extensions.php:236
+#: inc/structure/content-extensions.php:378
+msgid "% Comments"
+msgstr ""
+
+#: inc/structure/content-extensions.php:236
+#: inc/structure/content-extensions.php:378
+msgid "Comments Off"
+msgstr ""
+
+#: inc/structure/content-extensions.php:251
+msgid "Continue reading"
+msgstr ""
+
+#: inc/structure/content-extensions.php:254
+#: inc/structure/content-extensions.php:399
+msgid ", "
+msgstr ""
+
+#: inc/structure/content-extensions.php:275
+#: inc/structure/content-extensions.php:328
+#: inc/structure/content-extensions.php:424
+#: inc/structure/content-extensions.php:467
+msgid "No Posts Found."
+msgstr ""
+
+#: inc/structure/content-extensions.php:308
+#: inc/structure/content-extensions.php:390
+msgid "Pages:"
+msgstr ""
+
+#: inc/structure/content-extensions.php:490
+#: inc/structure/content-extensions.php:512
+#: inc/structure/content-extensions.php:524
+msgid "Previous"
+msgstr ""
+
+#: inc/structure/content-extensions.php:493
+#: inc/structure/content-extensions.php:515
+#: inc/structure/content-extensions.php:527
+msgid "Next"
+msgstr ""
+
+#: inc/structure/content-extensions.php:524
+msgid "Previous post:"
+msgstr ""
+
+#: inc/structure/content-extensions.php:527
+msgid "Next post:"
+msgstr ""
+
+#: inc/structure/content-extensions.php:563
+msgid "Pingback:"
+msgstr ""
+
+#: inc/structure/content-extensions.php:565
+msgid "(Edit)"
+msgstr ""
+
+#: inc/structure/content-extensions.php:581
+msgid "Post author"
+msgstr ""
+
+#: inc/structure/content-extensions.php:587
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: inc/structure/content-extensions.php:593
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: inc/structure/content-extensions.php:598
+msgid "Edit"
+msgstr ""
+
+#: inc/structure/content-extensions.php:601
+msgid "Reply <span>&darr;</span>"
+msgstr ""
+
+#: inc/structure/footer-extensions.php:49
+msgid "Copyright &copy;"
+msgstr ""
+
+#: inc/structure/footer-extensions.php:67
+msgid "Go to Top"
+msgstr ""
+
+#: inc/structure/header-extensions.php:70
+msgid "Responsive Menu"
+msgstr ""
+
+#: inc/structure/header-extensions.php:181
+msgid "\"Continue Reading\""
+msgstr ""
+
+#: inc/structure/header-extensions.php:181
+msgid "Continue Reading"
+msgstr ""
+
+#: inc/structure/header-extensions.php:226
+msgid "Page NOT Found"
+msgstr ""
+
+#: inc/structure/header-extensions.php:228
+msgid "Search Results"
+msgstr ""
+
+#: inc/widgets/superior-widgets.php:20
+msgid "Shows widgets at Left side."
+msgstr ""
+
+#: inc/widgets/superior-widgets.php:30
+msgid "Shows widgets at Right side."
+msgstr ""
+
